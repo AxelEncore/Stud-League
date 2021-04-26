@@ -169,8 +169,43 @@ span{
   /* display: none !important; */
   background-image: url(../images/LS-white.png) !important;
 }
-
-
+.center-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 51px;
+}
+.video-list{
+  width: 1131px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.thumbnail {
+    display: inline-block;
+    border: none !important;
+    outline: 5px solid #FECE76 !important;
+    outline-offset: -5px !important;
+    width: 244px;
+    height: 154px;
+    margin-right: 51px;
+}
+.playing {
+    border: none !important;
+    outline: 5px solid #ff5c5c !important;
+    outline-offset: -5px !important;
+}
+input#\33.thumbnail{
+  margin-right: 0 !important;
+}
+.video-gallery{
+  height: 700px;
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#demo-player_html5_api{
+  border: none !important;
+}
 #stars {
   width: 1px;
   height: 1px;
