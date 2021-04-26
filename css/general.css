@@ -1,0 +1,208 @@
+body{
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1440px;
+}
+li {
+	list-style-type: none;
+}
+ul {
+	padding-left: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.header-bg{
+	background-color: #131313;
+	/*background-image: url(https://i.imgur.com/rgpaW1K.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	background-repeat: no-repeat, repeat;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 100px 80px -33px inset,
+	rgba(0, 0, 0, 0.3) 0px 140px 70px 16px inset;*/
+    width: 100%;
+    height: 100px;
+    min-width: 1400px;
+}
+.align-content{
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+	max-width: 1400px;
+}
+.align-content2{
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+	max-width: 1440px;
+    position: relative;
+}
+header{
+    height: 100px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+}
+
+.hd-menu nav ul li{
+	display: inline;
+	/*margin-left: 20px;*/
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.hd-bord li{
+	margin-left:35px;
+	padding-bottom: 4px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.hd-bord li::after{
+    content: " ";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-color: #FECE76;
+	margin-top: 6px;
+    width: 0;
+    height: 1.5px;
+    transition: all 300ms ease-out;
+}
+.hd-bord li:hover::after{
+    width: 100%;
+}
+.hd-bord li a{ 
+	margin-bottom: 4px;
+    /*letter-spacing: 1.5px;*/
+    text-decoration: none;
+	text-shadow: rgb(0 0 0 / 47%) 0px 0px 15px;
+    color: rgb(255, 255, 255);
+}
+
+.hd-logo a img{
+	width: 78px;
+	display: flex;
+	padding: 8px;
+}
+* {
+	font-family: 'Rubik', sans-serif;
+}
+.ft-menu{
+    display: flex;
+    height: 111px;
+    width: 100%;
+    padding-bottom: 60px;
+    justify-content: space-around;
+}
+.ft-element{
+    width: 33.3%;
+    border-left: solid 4px #FECE76;
+}
+.ft-element h1{
+    font-family: 'Rubik', sans-serif;
+    color: #FECE76;
+    font-weight: bold;
+    font-size: 24px;
+    height: 35px;
+    margin: 7px;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+.footer-content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #131313;
+    width: 100%;
+    height: 100%;
+}
+.banner-align{
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.secp{
+    margin-top: 0;
+}
+.ft-element p{
+    color: #ffffff;
+    margin: 7px;
+    margin-left: 28px;
+    font-weight: 300;
+}
+.ft-line{
+    width: 4.5px;
+    height: 100%;
+    background-color: #FECE76;
+    margin: 0;
+}
+.ft-img img{
+    width: 206px;
+    height: 132px;
+}
+.ft-el{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft-social h2{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #FECE76;
+    margin-top: 0;
+}
+.ft-social{
+    margin-right: 25px;
+}
+.ft-social a{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: solid 3px #FECE76;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.vk-icon{
+    width: 38.15px;
+    height: 38.15px;
+}
+.twitter-icon{
+    width: 35.29px;
+    height: 35.29px;
+}
+.yt-icon{
+    width: 35.29px;
+    height: 35.29px;
+    margin-left: 1px;
+}
+.inst-icon{
+    width: 45.54px;
+    height: 45.54px;
+}
+.ft-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft-under{
+    display: flex;
+    justify-content: space-between;
+}
