@@ -622,4 +622,11 @@
     color: #FFFFFF;
     text-transform: uppercase;
 }
-
+.ft-more{
+    width: 100%;
+    height: 40px;
+    background-color: #202020;
+}
+.ft-more p{
+    color: #9E9E9E;
+}
