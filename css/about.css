@@ -206,6 +206,23 @@ input#\33.thumbnail{
 #demo-player_html5_api{
   border: none !important;
 }
+.video-text h1{
+  font-weight: bold;
+  font-size: 45px;
+  color: #FECE76;
+  margin-top: 0;
+}
+.video-text p{
+  color: #a3a3a3;
+  font-weight: 500;
+  font-size: 23px;
+}
+.v-text-align{
+  display: inline-flex;
+  width: 541px;
+  margin-left: 47px;
+}
+
 #stars {
   width: 1px;
   height: 1px;
