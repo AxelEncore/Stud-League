@@ -14,6 +14,8 @@
     <script src="https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.min.js"
         type="text/javascript"></script>
     <script src="js/cld-video-player.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/splide.min.css">
     <link rel="stylesheet" href="css/cld-video-player.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"></script>
@@ -185,31 +187,185 @@
     </div>
     <div class="video-gallery">
         <div class="video-list">
-            <video id="demo-player" style="display: inline-flex; border: 5px solid #FECE76;" controls height=303 width=538.67 class="cld-video-player center">
+            <video id="demo-player" style="display: inline-flex; border: 5px solid #FECE76;" controls height=303
+                width=538.67 class="cld-video-player center">
             </video>
             <div class="v-text-align">
                 <div class="video-text">
                     <h1>BEST STUDENT TEAM</h1>
-                    <p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка Туллия
+                    <p>Lorem ipsum — классический текст-«рыба». Является искажённым отрывком из философского трактата Марка
+                        Туллия
                         Цицерона «О
-                        пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства приписывается
+                        пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства
+                        приписывается
                         Ричарду
                         МакКлинтоку.</p>
                 </div>
             </div>
             <div class="center-list">
-                    <input type="image" id="0" value="0" class="thumbnail"
-                        src="images/so-project.jpg" , width=198 onclick="playMe(this.value);"
-                        /><input type="image" id="1" value="1" class="thumbnail"
-                        src="images/proj-harry.jpg" , width=199
-                        onclick="playMe(this.value);" /><input type="image" id="2" value="2" class="thumbnail"
-                        src="images/so-project.jpg" , width=199 onclick="playMe(this.value);"
-                        /><input type="image" id="3" value="3" class="thumbnail"
-                        src="images/proj-harry.jpg" , width=198
-                        onclick="playMe(this.value);" />
-            </div> 
+                <input type="image" id="0" value="0" class="thumbnail" src="images/so-project.jpg" , width=198
+                    onclick="playMe(this.value);" /><input type="image" id="1" value="1" class="thumbnail"
+                    src="images/proj-harry.jpg" , width=199 onclick="playMe(this.value);" /><input type="image" id="2"
+                    value="2" class="thumbnail" src="images/so-project.jpg" , width=199
+                    onclick="playMe(this.value);" /><input type="image" id="3" value="3" class="thumbnail"
+                    src="images/proj-harry.jpg" , width=198 onclick="playMe(this.value);" />
+            </div>
         </div>
     </div>
+    <div class="slider-text">
+        <h1>наша <span class="accent">галерея</span></h1>
+    </div>
+    <div class="splide">
+        <div class="splide__track">
+            <div class="splide__list">
+                <div class="splide__slide">
+                    <div class="align-content">
+                        <div class="grid-container">
+                            <div>
+                                <img class='grid-item grid-item-1'
+                                    src='images/gallery-firts.png'
+                                    alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-2'
+                                    src='images/gallery-firts.png'
+                                    alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-3'
+                                    src='images/gallery-firts.png'
+                                    alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-4'
+                                    src='images/rect.png'
+                                    alt=''>
+                            </div>
+                            <div style="margin-top: 26px;">
+                                <img class='grid-item grid-item-5'
+                                    src='images/so-cfu.png'
+                                    alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' 
+                                    src='images/gallery-firts.png' 
+                                    alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' 
+                                    src='images/gallery-firts.png' 
+                                    alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' 
+                                    src='images/gallery-firts.png' 
+                                    alt=''>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="splide__slide">
+                    <div class="align-content">
+                        <div class="grid-container">
+                            <div>
+                                <img class='grid-item grid-item-1' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-2' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-3' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-4' src='images/rect.png' alt=''>
+                            </div>
+                            <div style="margin-top: 26px;">
+                                <img class='grid-item grid-item-5' src='images/so-cfu.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' src='images/gallery-firts.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="splide__slide">
+                    <div class="align-content">
+                        <div class="grid-container">
+                            <div>
+                                <img class='grid-item grid-item-1' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-2' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-3' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-4' src='images/rect.png' alt=''>
+                            </div>
+                            <div style="margin-top: 26px;">
+                                <img class='grid-item grid-item-5' src='images/so-cfu.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' src='images/gallery-firts.png' alt=''>
+                            </div>
+                            <div>
+                                <img class='grid-item grid-item-6' src='images/gallery-firts.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="align-content">
+                <div class="ft-menu">
+                    <div class="ft-element">
+                        <h1>Позвони нам</h1>
+                        <p>Телефон: (978) 734-2133</p>
+                        <p class="secp">Горячая линия: 442-232</p>
+                    </div>
+                    <div class="ft-element">
+                        <h1>Заглядывай</h1>
+                        <p>Просп. Вернадского 4</p>
+                        <p class="secp">Г. Симферополь</p>
+                    </div>
+                    <div style="width: 277px;" class="ft-element">
+                        <h1>Напиши нам</h1>
+                        <p>Email: studleague@mail.ru</p>
+                        <p class="secp">Запросы: support@studleague.ru</p>
+                    </div>
+                </div>
+                <div class="ft-under">
+                    <div class="ft-img">
+                        <img src="images/LS-white-yellow.png" alt="">
+                    </div>
+                    <div class="ft-social">
+                        <div class="ft-h2">
+                            <h2>Мы в соцсетях</h2>
+                        </div>
+                        <div class="ft-el">
+                            <a href=""><img class="vk-icon" src="images/icons/vk-icon.png" alt=""></a>
+                            <a href=""><img class="twitter-icon" src="images/icons/twitter-icon.png" alt=""></a>
+                            <a href=""><img class="yt-icon" src="images/icons/yt-icon.png" alt=""></a>
+                            <a href=""><img class="inst-icon" src="images/icons/inst-icon.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script type="module">
@@ -269,6 +425,9 @@
                 { publicId: 'ГОРЯЧЕЙ_ВОДИЧКЕ_БЫТЬ_nzn3pc', sourceTypes: ['mp4']},
                 { publicId: 'Волна_Мобайл___СО_anojit', sourceTypes: ['mp4']}],
                 { autoAdvance: 0, repeat: true });
+    </script>
+    <script>
+        new Splide('.splide').mount();
     </script>
 </body>
 

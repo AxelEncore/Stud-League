@@ -101,6 +101,9 @@ header{
 * {
 	font-family: 'Rubik', sans-serif;
 }
+footer{
+    width: 100%;
+}
 .ft-menu{
     display: flex;
     height: 111px;
