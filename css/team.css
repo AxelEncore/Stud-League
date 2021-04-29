@@ -1,3 +1,153 @@
 .hd-bord .team::after{
     width: 100%;
 }
+.welcome{
+    background-image: url(../images/igor-think.png);
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(-1, 1);
+    box-shadow: inset 0 150px 90px 0 rgba(50, 50, 93, 0.25);
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    transform: scale(-1, 1);
+    box-shadow: inset 0 160px 70px 0 rgba(0, 0, 0, 0.25);
+}
+.welcome h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-top: 0;
+    padding-top: 155px;
+    text-align: right;
+}
+.accent{
+    color: #FECE76;
+}
+.btn{
+    width: 222px;
+    height: 72px;
+    border: 4px solid #FECE76;
+    border-radius: 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    float: right;
+}
+.btn:hover{
+    background-color: rgba(255, 248, 189, 0.274);
+    transition: all 200ms ease-out;
+}
+.btn p{
+    font-size: 32px !important;
+    font-weight: 500;
+    color: white;
+    margin: 0 !important;
+}
+.welcome p{
+    font-weight: 500;
+    font-size: 23px;
+    color: white;
+    text-align: right;
+    margin-top: 50px;
+}
+.team-el{
+    background-color: #212229;
+    width: 615px;
+    height: 338px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+.team-text{
+    text-align: left;
+    margin-top: 55px;
+    width: 325px;
+}
+.team-text h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+}
+.team-text p{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FECE76;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.team-text-align{
+    margin-top: 26px;
+}
+.av{
+    width: 181px;
+    height: 181px;
+    border: solid 3px #FECE76;
+    border-radius: 50%;
+    margin: 35px;
+}
+.stats p{
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+.stats-line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.stats{
+    position: relative;
+    margin-top: 38px;
+}
+.bk-bar{
+    background-color: #737373;
+    width: 206px;
+    height: 14px;
+    border-radius: 19px;
+    position: absolute;
+    right: 0;
+}
+.ready-bar{
+    background-color: #FECE76;
+    height: 14px;
+    border-radius: 19px;
+}
+.team-social{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 187px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+.elements-grid{
+    display: grid;
+    grid-template-columns: repeat(2,615px);
+    grid-template-rows: repeat(4, 338px);
+    column-gap: 110px;
+    row-gap: 110px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+.h1-team h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #131313;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+}

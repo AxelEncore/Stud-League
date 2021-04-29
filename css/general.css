@@ -103,6 +103,7 @@ header{
 }
 footer{
     width: 100%;
+    box-sizing: content-box;
 }
 .ft-menu{
     display: flex;
@@ -168,6 +169,7 @@ footer{
     text-transform: uppercase;
     color: #FECE76;
     margin-top: 0;
+    margin-bottom: 24px;
 }
 .ft-social{
     margin-right: 25px;
