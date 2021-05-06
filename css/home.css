@@ -242,11 +242,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .feed{
     width: 100%;
     height: 389px;
     background-color: #ffffff;
+    overflow: hidden;
 }
 .main-text-slider h1{
     color: #131313;
