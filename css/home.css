@@ -616,13 +616,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.btn-feed{
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+.btn-feed:hover{
+    transition: all 200ms ease-out;
+    background: #E7A23C;
 }
 .ft-more{
     width: 100%;
