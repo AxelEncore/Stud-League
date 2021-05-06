@@ -203,6 +203,7 @@ input#\33.thumbnail{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 #demo-player_html5_api{
   border: none !important;
