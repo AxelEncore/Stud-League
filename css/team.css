@@ -1,3 +1,6 @@
+body{
+    background-color: white;
+}
 .hd-bord .team::after{
     width: 100%;
 }
