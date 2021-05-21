@@ -375,6 +375,7 @@ html {
     height: 28px;
     border-radius: 19px;
     position: absolute;
+    overflow: hidden;
 }
 .ready-bar{
     background-color: #FECE76;
